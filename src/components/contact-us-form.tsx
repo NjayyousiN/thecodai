@@ -51,7 +51,7 @@ const ContactUsForm: React.FC = () => {
         );
       }
     } catch (error) {
-      console.log("Error parsing form values");
+      console.error("Error parsing form values", error);
       toast.warning("Please fill all required form fields.");
     }
   };
