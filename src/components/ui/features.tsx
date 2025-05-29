@@ -1,4 +1,3 @@
-"use";
 import AnimatedSection from "../animation";
 import { FeatureCard } from "../cards";
 

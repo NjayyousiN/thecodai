@@ -9,15 +9,21 @@
     "lint": "next lint"
   },
   "dependencies": {
-    "@types/react-scroll": "^1.8.10",
+    "@hookform/resolvers": "^5.0.1",
     "framer-motion": "^12.15.0",
     "next": "15.3.2",
+    "nodemailer": "^7.0.3",
     "react": "^19.0.0",
     "react-dom": "^19.0.0",
-    "react-scroll": "^1.9.3"
+    "react-hook-form": "^7.56.4",
+    "react-scroll": "^1.9.3",
+    "sonner": "^2.0.3",
+    "zod": "^3.25.36"
   },
   "devDependencies": {
     "typescript": "^5",
+    "@types/nodemailer": "^6.4.17",
+    "@types/react-scroll": "^1.8.10",
     "@types/node": "^20",
     "@types/react": "^19",
     "@types/react-dom": "^19",

@@ -4,6 +4,7 @@ import Features from "@/components/ui/features";
 import Stats from "@/components/ui/stats";
 import Contact from "@/components/ui/contact";
 import Footer from "@/components/ui/footer";
+import { Toaster } from "sonner";
 
 const LandingPage: React.FC = () => {
   return (
@@ -20,6 +21,7 @@ const LandingPage: React.FC = () => {
         <Contact />
         {/* Footer */}
         <Footer />
+        <Toaster expand={true} richColors />
       </main>
     </>
   );
